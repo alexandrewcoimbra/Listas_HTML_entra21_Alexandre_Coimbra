@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <style>
+        form {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Pré-Matrícula</h1>
+    <form method="get">
+        <caption>Dados pessoais:</caption>
+        <br>
+        <br>
+        <label>
+            Nome do Aluno: 
+            <input type="text" name="nomeAluno">
+        </label>
+        <br>
+        <br>
+        <label>
+            Data de Nascimento: 
+            <input type="date" name="dataNascimento">
+        </label>
+        <br>
+        <br>
+        <label>
+            Nome da Mãe: 
+            <input type="text" name="nomeMae">
+        </label>
+        <br>
+        <br>
+        <label>
+            Nome do Pai: 
+            <input type="text" name="nomePai">
+        </label>
+        <br>
+        <br>
+        <label>
+            Telefone: 
+            <input type="text" name="telefone">
+        </label>
+        <br>
+        <br>
+        <br>
+    </form>
+    <br>
+    <form method="get">
+        <caption>Informações de Matrícula:</caption>
+        <br>
+        <p>Série</p>
+        <select name="serie">
+            <option value="preEscola" selected>Pré-Escola</option>
+            <option value="EF">1ª Série</option>
+            <option value="EF">2ª Série</option>
+            <option value="EF">3ª Série</option>
+            <option value="EF">4ª Série</option>
+            <option value="EF">5ª Série</option>
+            <option value="EF">6ª Série</option>
+            <option value="EF">7ª Série</option>
+            <option value="EF">8ª Série</option>
+        </select>
+        <br>
+        <p>Turno:</p>
+        <label>
+            <input type="radio" name="turno" value="m"> Matutino
+        </label>
+        <label>
+            <input type="radio" name="turno" value="v"> Vespertino
+        </label>
+        <br>
+        <p>Atividades Extracurriculares:</p>
+        <label>
+            <input type="checkbox" name="informatica"> Informática
+        </label>
+            <br>
+        <label>
+            <input type="checkbox" name="musica"> Música
+        </label>
+            <br>
+        <label>
+            <input type="checkbox" name="balet"> Balet
+        </label>
+            <br>
+        <label>
+            <input type="checkbox" name="pintura"> Pintura
+        </label>
+            <br>
+        <label>
+            <input type="checkbox" name="judo"> Judô
+        </label>
+            <br>
+        <label>
+            <input type="checkbox" name="futebol"> Futebol
+        </label>
+        <br>
+        <br>
+    </form>
+    <button type="submit">Envia Formulário</button>
+        <label>
+            <input type="reset" value="Limpa Campos">
+        </label>
+</body>
+</html>
